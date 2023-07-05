@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 856.02002 840.47003"
+   version="1.1"
+   sodipodi:docname="main-logo.svg"
+   width="856.02002"
+   height="840.47003"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview251"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.562"
+     inkscape:cx="428.82562"
+     inkscape:cy="422.59786"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="1347"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs240">
+    <style
+       id="style231">.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:url(#linear-gradient-3);}</style>
+    <linearGradient
+       id="linear-gradient"
+       x1="997.96002"
+       y1="505.25"
+       x2="941.44"
+       y2="1183.52"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#1877f2"
+         id="stop233" />
+      <stop
+         offset="1"
+         id="stop235" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="1119.2"
+       y1="518.88"
+       x2="1062.72"
+       y2="1196.67"
+       xlink:href="#linear-gradient"
+       gradientTransform="translate(-571.99,-329.76999)" />
+    <linearGradient
+       id="linear-gradient-3"
+       x1="844.73999"
+       y1="492.35001"
+       x2="788.26001"
+       y2="1170.14"
+       xlink:href="#linear-gradient"
+       gradientTransform="translate(-571.99,-329.76999)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-gradient"
+       id="linearGradient255"
+       gradientUnits="userSpaceOnUse"
+       x1="997.96002"
+       y1="505.25"
+       x2="941.44"
+       y2="1183.52" />
+  </defs>
+  <title
+     id="title242">Artboard 1 copy</title>
+  <polygon
+     class="cls-1"
+     points="871.13,779.44 1099.51,554.73 1376.06,554.73 1376.06,406.85 1056.07,406.85 848.91,606.69 571.99,606.69 571.99,354.89 838.48,354.89 838.48,406.85 623.95,406.85 623.95,554.73 827.38,554.73 1034.55,354.89 1428.01,354.89 1428.01,606.69 1121.03,606.69 923.09,800.97 923.09,1118.28 1072.3,1118.28 1072.3,809.35 1124.26,809.35 1124.26,1170.24 871.13,1170.24 "
+     id="polygon244"
+     style="fill:url(#linearGradient255)"
+     transform="translate(-571.99,-329.76999)" />
+  <circle
+     class="cls-2"
+     cx="524.85999"
+     cy="457.31003"
+     r="47.529999"
+     id="circle246"
+     style="fill:url(#linear-gradient-2)" />
+  <circle
+     class="cls-3"
+     cx="282.34003"
+     cy="47.529999"
+     r="47.529999"
+     id="circle248"
+     style="fill:url(#linear-gradient-3)" />
+  <metadata
+     id="metadata253">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Artboard 1 copy</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

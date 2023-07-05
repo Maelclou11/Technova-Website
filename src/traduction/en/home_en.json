@@ -1,0 +1,223 @@
+{
+  "home": {
+    "title": "Revolutionizing the way you",
+    "title2": "envision your space", 
+    "title3": "showcase your website", 
+    "title4": "do e-commerce online", 
+    "description": "Developing new virtual technologies and optimizing online visibility to help businesses take their customer experience to a higher level.",
+    "startProject": "Start a project",
+    "moreAboutUs": "More About Us",
+    "we": "We",
+    "create": "Create.",
+    "innovate": "Innovate.",
+    "optimise": "Optimize."
+  },
+
+
+  
+  "services": {
+    "title": "Our Services",
+    "serviceTitle3d": "Digital 3D Scanning / Virtual Tours",
+    "serviceDescription3d": "We help prospects envision their space using powerful, ingenious 3D virtual technology.",
+    "serviceTitleWebDesign": "Web-Design / Website Optimization",
+    "serviceDescriptionWebDesign": "We don't just code; we assemble. What you deem essential for your business should be recalled on your website.",
+    "serviceTitleEcom": "E-Commerce Development",
+    "serviceDescriptionEcom": "We formulate suitable and adequate digital marketing solutions to enrich your online presence in E-Commerce.",
+    "other": "Other",
+    "learnMore": "Learn More"
+  },
+
+
+
+  "RecentWork": {
+    "RecentWorkTitle": "Our Recent Work",
+
+    "DeltaMarriott": {
+      "title": "Delta Marriott",
+      "altBg": "Hotel Delta Marriott where tecnova did a virtual tour",
+      "typeOfWork": "Virtual Tour",
+      "altLogo": "Logo of Delta Marriott's hotel in Quebec"
+    },
+
+    "JacquesEtFils": {
+      "title": "Jacques et Fils Funeral Home",
+      "altBg": "Jacques Et Fils funeral home where tecnova did a virtual tour",
+      "typeOfWork": "Virtual Tour",
+      "altLogo": "Logo of Jacques & Fils Lac-Mégantic"
+    },
+
+    "SkyGym": {
+      "title": "Sky Gym",
+      "altBg": "Sky Gym at Lac-Mégantic where tecnova did a virtual tour",
+      "typeOfWork": "Virtual Tour"
+    },
+
+    "BrunelleSport": {
+      "title": "Brunelle Sport",
+      "altBg": "E-Commerce optimisation of Brunelle Sport made by Tecnova",
+      "typeOfWork": "E-commerce Optimisation"
+    },
+
+    "MariePierDube": {
+      "title": "Marie Pier Dubé Dental Clinic",
+      "altBg": "Dental Clinic of Marie Pier Dubé where tecnova did a virtual tour",
+      "typeOfWork": "Virtual Tour + Website"
+    },
+
+    "VesiDesign": {
+      "title": "Vesi Design",
+      "altBg": "E-Commerce optimisation of Vesi Design made by Tecnova",
+      "typeOfWork": "E-commerce Website",
+      "altLogo": "Logo of Vesi Design"
+    },
+
+    "Concordia": {
+      "title": "Concordia University",
+      "altBg": "University of concordia in montreal where Tecnova did a virtual tour",
+      "typeOfWork": "Virtual Tour",
+      "altLogo": "Logo of the university of Concordia"
+    },
+
+    "Prevel": {
+      "title": "Prevel",
+      "altBg": "Virtual Tour of group Prevel made by Tecnova",
+      "typeOfWork": "Virtual Tour",
+      "altLogo": "Logo of group Prevel"
+    },
+
+    "seeWorkBtn": "See Work",
+    "comingSoonBtn": "Coming Soon"
+  },
+
+
+
+  "OurTeam": {
+    "title": "Our Team",
+    "text": "Our members are dynamic individuals driven to excel and achieve great things. We are a diverse group of individuals with a mix of skills and expertise that complement each other greatly. We possess a great sense of collaboration and work ethic and are always willing to go the extra mile to achieve company goals. We are constantly learning and adapting to new technologies and are unafraid to take risks and think outside the box. Every member is dedicated, passionate, and believes in the company's mission.",
+
+    "members": {
+      "xavier": {
+        "role": "Founder / Chief Executive Officer"
+      },
+      "christ": {
+        "role": "Co-Owner / Chief Opperating Officer"
+      },
+      "vince": {
+        "role": "Co-Owner / Chief Financial Officer"
+      },
+      "mael": {
+        "role": "Developer, Designer"
+      },
+      "etienne": {
+        "role": "Developer"
+      },
+      "laurie" : {
+        "role": "Marketing Officer"
+      },
+      "thomas" : {
+        "role": "Designer / Développeur"
+      },
+      "philippe" : {
+        "role": "Marketing director"
+      }
+    }
+
+  },
+
+
+
+  "OurMission": {
+    "title": "Our Mission",
+    "text": "Our young team dedicates itself to delivering the ideal job to our clients. We comprehend that every project is distinctive and comes with its challenges. As a group, we are always looking for ways to optimize our solutions and innovate to provide cost-effective outcomes. We're also constantly expanding our abilities to meet our client's needs, no matter how intricate or challenging the project is. Ultimately, our goal is to exceed our client's expectations and deliver a final product that will fulfill their demands. With our commitment and expertise, we know with confidence that we can achieve this goal in every project we embark on."
+  },
+
+
+
+  "ContactUs": {
+    "title": {
+      "firstLine": "Ready to take it",
+      "secondLine": "to the",
+      "wordBlue": "Next level ?"
+    },
+
+    "form": {
+      "step1": {
+        "title1": "Which services do",
+        "title2": "you require ?"
+      },
+
+      "step2": {
+        "title1": "How long has your company",
+        "title2": "been in business ?",
+        "preLaunch" : "Pre-Launch",
+        "years": "years"
+      },
+
+      "step3": {
+        "title1": "What is your desired",
+        "title2": "time-frame ?",
+        "month": "Months",
+        "monthSingular": "Month",
+        "periodOfTime": "Desired time-frame :",
+        "partnership": "I'm looking for a long-term partnership"
+      },
+
+      "step4": {
+        "title1": "What is your",
+        "title2": "approximate budget ?",
+        "budget": "Approximate budget :",
+        "discuss": "I prefer to disclose this information later"
+      },
+
+      "step5": {
+        "title1": "Which company are",
+        "title2": "you representing ?",
+        "nameCompany": "Name of company",
+        "position": "Your position",
+        "websiteURL": "Website URL",
+        "optional": "(optional)"
+      },
+
+      "step6": {
+        "title1": "What are your project",
+        "title2": "requirements ?",
+        "projectScope": "Project scope & description",
+        "placeholder": "Enter your message"
+      },
+
+      "step7": {
+        "title1": "How can we",
+        "title2": "contact you ?",
+        "fullName": "Full Name",
+        "telephone": "Telephone",
+        "email": "Email"
+      },
+
+      "sentSuccess": {
+        "loading": "Loading...",
+        "title": "Form sent successfully!",
+        "text": "Thank you for submitting the form. We will get back to you shortly."
+      },
+      
+      "nextBtn": "Next",
+      "backBtn": "Back",
+      "sendBtn": "Send"
+    },
+
+    "smallText": {
+      "specificNeed": "Specific Need ?",
+      "idea": "You already have an idea ?",
+      "btn": "Write us a message",
+      "text": "You need help for a specific problem and wonder if we can help you ?",
+      "showFullForm": "Do a free subsmission",
+      "answer24h": "We'll do our best to answer within 24 hours"
+    },
+
+
+    "invalidPhone": "Please enter a valid phone number.",
+    "invalidEmail": "Please enter a valid email.",
+    "fillTheMissing": "Please fill the missing information."
+
+  }
+}
+  

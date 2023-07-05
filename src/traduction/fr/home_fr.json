@@ -1,0 +1,222 @@
+{
+  "home": {
+    "title": "Révolutionner la façon dont",
+    "title2": "vous visualisez vos espaces", 
+    "title3": "vous présentez votre site Web", 
+    "title4": "vous faites du E-commerce", 
+    "description": "Développer de nouvelles technologies virtuelles et optimiser la visibilité en ligne pour aider les entreprises à faire passer leur expérience client à un autre niveau.",
+    "startProject": "Démarrer un projet",
+    "moreAboutUs": "À Propos de nous",
+    "we": "Nous",
+    "create": "Créons.",
+    "innovate": "Innovons.",
+    "optimise": "Optimisons."
+  },
+
+
+  
+  "services": {
+    "title": "Nos Services",
+    "serviceTitle3d": "Numérisation numérique 3D / Visites virtuelles",
+    "serviceDescription3d": "Nous aidons les prospects à imaginer leur espace en utilisant une technologie virtuelle 3D puissante et ingénieuse.",
+    "serviceTitleWebDesign": "Design-Web / Optimisation de site Web",
+    "serviceDescriptionWebDesign": "Nous ne faisons pas que de coder ; nous assemblons. Ce que vous jugez essentiel pour votre entreprise doit être ressentis sur votre site internet.",
+    "serviceTitleEcom": "Développement E-Commerce",
+    "serviceDescriptionEcom": "Nous formulons des solutions de marketing numérique adaptées et adéquates pour enrichir votre présence en ligne dans le commerce électronique.",
+    "other": "Autre",
+    "learnMore": "En Savoir Plus"
+  },
+
+
+
+  "RecentWork": {
+    "RecentWorkTitle": "Réalisations Récentes",
+
+    "DeltaMarriott": {
+      "title": "Delta Marriott",
+      "altBg": "Visite virtuelle de la Chambre d'hotel chez Delta Marriott",
+      "typeOfWork": "Visite Virtuelle",
+      "altLogo": "Logo Delta Marriott"
+    },
+
+    "JacquesEtFils": {
+      "title": "Jacques et Fils Funétarium",
+      "altBg": "Visite virtuelle fait par Tecnova dans le funétarium de Jacques Et Fils",
+      "typeOfWork": "Visite Virtuelle",
+      "altLogo": "Logo de Jacques & Fils Lac-Mégantic"
+    },
+
+    "SkyGym": {
+      "title": "Sky Gym",
+      "altBg": "Sky Gym à Lac-Mégantic où Tecnova a fait une visite virtuelle",
+      "typeOfWork": "Visite Virtuelle",
+      "altLogo": "Logo du Sky Gym à Lac-Mégantic"
+    },
+
+    "BrunelleSport": {
+      "title": "Brunelle Sport",
+      "altBg": "Optimisation E-Commerce de Brunelle Sport",
+      "typeOfWork": "Optimisation E-commerce"
+    },
+
+    "MariePierDube": {
+      "title": "Marie Pier Dubé Clinique Dentaire",
+      "altBg": "Clinique Dentaire Marie Pier Dubé où Tecnova a fait une visite virtuelle",
+      "typeOfWork": "Visite Virtuelle + Site Web"
+    },
+
+    "VesiDesign": {
+      "title": "Vesi Design",
+      "altBg": "Optimisation E-Commerce de Vesi Design fait par Tecnova",
+      "typeOfWork": "Site Web E-commerce",
+      "altLogo": "Logo de Vesi Design"
+    },
+
+    "Concordia": {
+      "title": "Université Concordia",
+      "altBg": "Université Concordia à Montréal où Tecnova a fait une visite virtuelle",
+      "typeOfWork": "Visite Virtuelle",
+      "altLogo": "Logo de l'université Concordia"
+    },
+
+    "Prevel": {
+      "title": "Prével",
+      "altBg": "Visite virtuelle fait chez groupe Prével",
+      "typeOfWork": "Visite Virtuelle",
+      "altLogo": "Logo de groupe Prével"
+    },
+
+    "seeWorkBtn": "Voir",
+    "comingSoonBtn": "Voir Bientôt"
+  },
+
+
+
+  "OurTeam": {
+    "title": "Notre Équipe",
+    "text": "Nos membres sont dynamiques et motivés à exceller et à accomplir de grandes choses. Nous sommes des personnes avec un mélange de compétences et d'expertise qui se complètent grandement. Nous possédons un grand sens de collaboration et d'éthique de travail et sommes toujours prêts à faire un effort supplémentaire pour atteindre les objectifs de l'entreprise. Nous nous adaptons constamment aux nouvelles technologies et n'avons pas peur de prendre des risques et de sortir de notre zone de confort. Chaque membre est dévoué, passionné et croit en la mission de l'entreprise.",
+
+    "members": {
+      "xavier": {
+        "role": "Fondateur / Directeur Général"
+      },
+      "christ": {
+        "role": "Co-Propriétaire / Directeur des opérations"
+      },
+      "vince": {
+        "role": "Co-Propriétaire/ Directeur Financier"
+      },
+      "mael": {
+        "role": "Développeur / Designer"
+      },
+      "etienne": {
+        "role": "Développeur"
+      },
+      "laurie" : {
+        "role": "Préposée au Marketing"
+      },
+      "thomas" : {
+        "role": "Designer / Développeur"
+      },
+      "philippe" : {
+        "role": "Directeur Marketing"
+      }
+    }
+
+  },
+
+
+
+  "OurMission": {
+    "title": "Notre Mission",
+    "text": "Notre jeune équipe se consacre à livrer le travail idéal à nos clients. Nous comprenons que chaque projet est unique et comporte ses propres défis. En tant que groupe, nous recherchons toujours des moyens d'optimiser nos solutions et d'innover pour fournir des résultats rentables. Nous élargissons également constamment nos capacités pour répondre aux besoins de nos clients, peu importe la complexité ou le défi du projet. En fin de compte, notre objectif est de dépasser les attentes de nos clients et de livrer un produit final qui répondra à leurs demandes. Grâce à notre engagement et à notre expertise, nous savons avec assurance que nous pouvons atteindre cet objectif dans chaque projet que nous entreprenons."
+  },
+
+
+
+  "ContactUs": {
+    "title": {
+      "firstLine": "Prêt à passer",
+      "secondLine": "au",
+      "wordBlue": "Niveau supérieur ?"
+    },
+
+    "form": {
+      "step1": {
+        "title1": "De quels services",
+        "title2": "avez-vous besoin ?"
+      },
+
+      "step2": {
+        "title1": "Depuis combien de temps votre",
+        "title2": "entreprise existe-t-elle?",
+        "preLaunch" : "Lancement",
+        "years": "ans"
+      },
+
+      "step3": {
+        "title1": "Quel est votre",
+        "title2": "délai idéal ?",
+        "month": "Mois",
+        "periodOfTime": "Délai idéal :",
+        "partnership": "Je recherche un partenariat à long terme"
+      },
+
+      "step4": {
+        "title1": "Quel est votre",
+        "title2": "budget approximatif ?",
+        "budget": "Budget approximatif :",
+        "discuss": "Je préfère divulguer cette information ultérieurement"
+      },
+
+      "step5": {
+        "title1": "Quelle compagnie",
+        "title2": "représentez-vous ?",
+        "nameCompany": "Nom de votre entreprise",
+        "position": "Votre position",
+        "websiteURL": "Adresse de votre Site Web",
+        "optional": "(facultatif)"
+      },
+
+      "step6": {
+        "title1": "Quelles sont les exigences",
+        "title2": "de votre projet ?",
+        "projectScope": "Description du projet",
+        "placeholder": "Entrez votre message..."
+      },
+
+      "step7": {
+        "title1": "Comment pouvons-nous",
+        "title2": "vous joindre ?",
+        "fullName": "Nom Complet",
+        "telephone": "Numéro de Téléphone",
+        "email": "Courriel"
+      },
+
+      "sentSuccess": {
+        "loading": "Chargement...",
+        "title": "Demande envoyé avec succès !",
+        "text": "Merci d'avoir soumis votre demande. Nous vous répondrons sous peu."
+      },
+
+      "nextBtn": "Suivant",
+      "backBtn": "Retour",
+      "sendBtn": "Envoyer"
+    },
+
+    "smallText": {
+      "specificNeed": "Besoin d'aide spécifique ?",
+      "idea": "Vous avez une idée ?",
+      "btn": "Laissez nous un message",
+      "text": "Vous avez besoin d'aide pour un problème spécifique et vous vous demandez si nous pouvons vous aider ?",
+      "showFullForm": "Faire une demande",
+      "answer24h": "Nous ferons notre mieux pour vous répondre d'ici 24h"
+    },
+    
+    "invalidPhone": "Veuillez entrer un numéro de téléphone valide.",
+    "invalidEmail": "Veuillez entrer une adresse courriel valide.",
+    "fillTheMissing": "Veuillez remplir les informations manquantes."
+
+  }
+}
+  
