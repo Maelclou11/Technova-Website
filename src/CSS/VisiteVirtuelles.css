@@ -1,0 +1,172 @@
+:root {
+  --max-width-p: calc(2rem + 3vh) calc(1rem + 6vw);
+  --font-size-h2: calc(1rem + 0.8vw);
+}
+.Accueil-Service {
+  /* background-image: url("../img/bg_contact_us.png"); */
+  background-image: url("../img/arriere-plan-vague-bleu-1440px.png");
+  background-size: cover;
+}
+.CyberSecurite.VisiteVirtuelle .footer-frame {
+  background: white;
+}
+.VisiteVirtuelle .home-img img {
+  width: 100%;
+  max-height: 70vh;
+  border-radius: 10px;
+}
+.VisiteVirtuelle .home-img {
+  max-width: 40%;
+}
+.VisiteVirtuelle .home-content {
+  max-width: 2000px;
+  padding-bottom: 1rem;
+}
+.VisiteVirtuelle .home-content .btn-cta svg {
+  transition: all 0.3s ease;
+}
+.VisiteVirtuelle .home-content .btn-cta:hover svg {
+  transform: rotate(90deg);
+}
+.VisiteVirtuelle .stats {
+  padding: 3rem;
+  background: var(--main-color-);
+}
+.VisiteVirtuelle .stats .stat-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.VisiteVirtuelle .stats .stat-container .stat {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+}
+.VisiteVirtuelle .stats .stat-container .stat .title {
+  color: var(--main-color-);
+  font-weight: 500;
+}
+.VisiteVirtuelle .stats .stat-container .stat .stat-percent {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.VisiteVirtuelle .stats .stat-container .stat .text {
+  font-weight: 300;
+}
+.VisiteVirtuelle .DomainBenefits {
+  /*   background: linear-gradient(rgba(0, 0, 0, 0.295), black),
+    url(../img/hexagonal-bg.png); */
+  background: black;
+  background-size: cover;
+  background-repeat: none;
+}
+.VisiteVirtuelle .DomainBenefit {
+  background-size: 0%;
+  transition: background-size 0.2s;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.VisiteVirtuelle .questions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.VisiteVirtuelle .section.cta {
+  background: white;
+}
+.VisiteVirtuelle .section.cta h2 {
+  color: black;
+}
+.VisiteVirtuelle .button-container {
+  display: flex;
+  gap: 20px;
+}
+.VisiteVirtuelle .button-container button:first-of-type {
+  border: 3px black solid;
+}
+.VisiteVirtuelle .button-container button:first-of-type svg {
+  color: var(--main-color-);
+}
+.VisiteVirtuelle .button-container button:first-of-type:hover {
+  background: var(--main-color-);
+}
+.VisiteVirtuelle .button-container button:first-of-type:hover svg {
+  transform: rotate(0deg) translateY(3px);
+  color: white;
+}
+.VisiteVirtuelle .button-container button:last-of-type {
+  background: var(--main-color-);
+  color: white;
+  border: none;
+}
+.benefits-section.show {
+  background: black;
+  opacity: 1 !important;
+}
+.CyberSecurite.VisiteVirtuelle #realisation {
+  padding: 2rem var(--padding-main-) !important;
+}
+
+.VisiteVirtuelle .row {
+  position: relative;
+}
+.VisiteVirtuelle .row .chevron {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.VisiteVirtuelle .slick-track {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.VisiteVirtuelle #recentWork {
+  width: 100%;
+}
+
+/*  #region        Entering Under 760px        */
+@media screen and (max-width: 760px) {
+  .VisiteVirtuelle .home-img {
+    max-width: 80%;
+  }
+  .CyberSecurite.VisiteVirtuelle .home--text {
+    align-items: center;
+  }
+  .CyberSecurite.VisiteVirtuelle h1,
+  .CyberSecurite.VisiteVirtuelle .texte {
+    text-align: center;
+  }
+  .InstantQuote {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .InstantQuote .contentBox .form {
+    flex-direction: column;
+  }
+  .VisiteVirtuelle .button-container {
+    flex-direction: column;
+  }
+  .VisiteVirtuelle .button-container button:first-of-type svg {
+    height: 0.8em;
+  }
+  .domain-item {
+    width: calc(50% - 30px);
+  }
+  .CyberSecurite .section.cta {
+    padding-top: 2rem;
+  }
+}
+/* #endregion */
+/*  #region        Entering Under 550px        */
+@media screen and (max-width: 550px) {
+  .CyberSecurite h1 {
+    font-size: calc(1rem + 1.4vw);
+  }
+}
+/* #endregion */

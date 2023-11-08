@@ -1,0 +1,272 @@
+.footerRecentWork {
+  margin-top: 5rem;
+}
+.recentWork__body {
+  background: linear-gradient(
+    rgb(15, 15, 15) 10%,
+    rgb(46, 46, 46),
+    rgb(0, 0, 0)
+  );
+  background-attachment: fixed;
+}
+#recentWork__home {
+  margin-top: 80px;
+  padding: 100px 100px;
+  /* background: #01256d; */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/bg__main5.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 80px 40px rgba(0, 0, 0, 0.555);
+}
+.recentWork__home--content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.recentWork__home--content h1 {
+  color: white;
+  font-size: calc(2rem + 2vw);
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1rem;
+  /* text-align: center;
+    width: fit-content; */
+}
+.recentWork__home--content h2::before {
+  content: "";
+  height: 4px;
+  width: 100%;
+  left: 0;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+.recentWork__home--content p {
+  font-size: calc(0.8rem + 0.67vw);
+  color: white;
+  /* text-align: center; */
+}
+
+.recentWork__virtualTour {
+  padding: 20px 100px;
+  height: fit-content;
+}
+.recentWork__virtualTour .recentWork__virtualTour--title {
+  position: relative;
+}
+.recentWork__virtualTour .backArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: calc(1rem + 0.4vw);
+  font-weight: 300;
+  z-index: 1;
+}
+.recentWork__virtualTour .backArrow:hover {
+  cursor: pointer;
+}
+.recentWork__virtualTour .backArrow svg {
+  color: white;
+  font-size: calc(1rem + 1vw);
+  transition: all 0.3s ease;
+}
+.recentWork__virtualTour .backArrow:hover svg {
+  transform: translateX(-13px);
+}
+/* #recentWork__virtualTour .recentWork__virtualTour--title {
+    margin-bottom: 5rem;
+  } */
+.recentWork__virtualTour .recentWork__virtualTour--title h2 {
+  font-size: calc(1rem + 2vw);
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+}
+.recentWork__virtualTour .recentWork__virtualTour--title h2::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+}
+.recentWork__virtualTour .virtualTour__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 1rem;
+}
+.recentWork__virtualTour .virtualTour__content.justify-sb {
+  justify-content: space-around;
+  gap: 2rem;
+  width: 100%;
+}
+.virtualTour__content .virtualTour__content--text {
+  /* width: 50%; */
+  /*   padding: 0 30px; */
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.virtualTour__content .virtualTour__content--text h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(1rem + 0.9vw);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.virtualTour__content .virtualTour__content--text p {
+  color: white;
+  font-size: calc(0.6rem + 0.8vw);
+  line-height: 1.6;
+}
+.virtualTour__content .virtualTour__content--work {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.virtualTour__content .virtualTour__content--work iframe {
+  height: 480px;
+  border-radius: 30px;
+}
+.virtualTour__content--work.videoContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 40%;
+}
+.virtualTour__content--work video {
+  filter: brightness(0.5);
+  transition: all 0.5s ease;
+  /* height: 480px; */
+  border-radius: 30px;
+  width: 100%;
+  border-radius: 30px;
+}
+.virtualTour__content--work video:hover,
+.virtualTour__content--work video:active {
+  filter: brightness(1);
+  cursor: pointer;
+}
+.virtualTour__content--work.videoContainer::after {
+  content: "See Website";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  z-index: 10;
+}
+.virtualTour__content--work.videoContainer.Fr::after {
+  content: "Voir le site";
+}
+.virtualTour__content--work.videoContainer:hover::after,
+.virtualTour__content--work.videoContainer:active::after {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .recentWork__virtualTour .backArrow {
+    position: absolute;
+    top: -50%;
+    transform: translateY(-90%);
+    left: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: calc(1.1rem + 0.4vw);
+    font-weight: 300;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .virtualTour__content--work {
+    width: 100% !important;
+  }
+  .virtualTour__content--work.videoContainer {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  .virtualTour__content--text {
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin: 1rem 0;
+  }
+  .recentWork__virtualTour .virtualTour__content {
+    margin: 4vmax 0;
+    flex-wrap: wrap-reverse;
+  }
+  .virtualTour__content .virtualTour__content--text {
+    padding: unset;
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #recentWork h2 {
+    font-size: calc(1.7rem + 2vw);
+    text-align: center;
+    margin: unset;
+    margin-bottom: 2rem;
+    width: fit-content;
+  }
+  .recentWork__virtualTour {
+    padding: 20px calc(0.6rem + 2vmax);
+  }
+  #recentWork__home {
+    padding: 5vmax;
+  }
+  .virtualTour__content .virtualTour__content--text p {
+    font-size: calc(0.8rem + 0.7vmin);
+  }
+  .virtualTour__content .virtualTour__content--work iframe {
+    height: 380px;
+  }
+  section#recentWork {
+    padding: 10px calc(40px + 1vmin) calc(40px + 1vmin) calc(40px + 1vmin);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section#recentWork {
+    padding: 20px 0px !important;
+  }
+  .recentWork__home--content h1 {
+    font-size: calc(1.2rem + 2vw);
+  }
+  .recentWork__virtualTour {
+    padding-top: 60px;
+  }
+  .recentWork__virtualTour .backArrow {
+    font-size: calc(1rem + 0.2vw);
+  }
+  .CyberSecurite h1 {
+    font-size: calc(1rem + 1.8vw);
+  }
+}

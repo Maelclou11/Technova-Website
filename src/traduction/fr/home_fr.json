@@ -17,12 +17,19 @@
   
   "services": {
     "title": "Nos Services",
+
     "serviceTitle3d": "Numérisation numérique 3D / Visites virtuelles",
     "serviceDescription3d": "Nous aidons les prospects à imaginer leur espace en utilisant une technologie virtuelle 3D puissante et ingénieuse.",
-    "serviceTitleWebDesign": "Design-Web / Optimisation de site Web",
-    "serviceDescriptionWebDesign": "Nous ne faisons pas que de coder ; nous assemblons. Ce que vous jugez essentiel pour votre entreprise doit être ressentis sur votre site internet.",
+
+    "serviceTitleWebDesign": "Conception de site Web",
+    "serviceDescriptionWebDesign": "Nous ne faisons pas que coder ; nous assemblons. Ce que vous jugez essentiel pour votre entreprise doit être ressentis sur votre site internet.",
+
     "serviceTitleEcom": "Développement E-Commerce",
     "serviceDescriptionEcom": "Nous formulons des solutions de marketing numérique adaptées et adéquates pour enrichir votre présence en ligne dans le commerce électronique.",
+
+    "serviceTitleCyberSecurity": "Protection des données & Cybersécurité",
+    "serviceDescriptionCyberSecurity": "Préparez-vous pour la loi 25 avec notre service de cybersécurité afin d'éviter toute sanction légale et les potentielles attaques",
+    
     "other": "Autre",
     "learnMore": "En Savoir Plus"
   },
@@ -86,6 +93,35 @@
       "altLogo": "Logo de groupe Prével"
     },
 
+    "FlawlaceSupply": {
+      "title": "Flawlace Supply",
+      "altBg": "Optimisation E-Commerce de Flawlace Supply fait par Tecnova",
+      "typeOfWork": "Site Web E-commerce",
+      "altLogo": "Logo de Flawlace Supply"
+    },
+
+    "CompletePortfolio": {
+      "title": "Contactez-nous pour voir notre portfolio complet",
+      "altBg": "arrière-plan d'hexagone dans le style technologique",
+      "typeOfWork": "",
+      "altLogo": "Logo de Tecnova",
+      "btnTexte": "Nous Joindre"
+    },
+
+    "MontrealDuFutur": {
+      "title": "Montréal Du Futur 2023",
+      "altBg": "Visite virtuelle de l'exposition Montréal Du Futur 2023 fait par Tecnova",
+      "typeOfWork": "Visite Virtuelle",
+      "altLogo": "Logo Montréal Du Futur"
+    },
+
+    "VRBO": {
+      "title": "VRBO",
+      "altBg": "Maison louable sur VRBO",
+      "typeOfWork": "Intégration de visites virtuelles en ligne",
+      "altLogo": "Logo de VRBO"
+    },
+
     "seeWorkBtn": "Voir",
     "comingSoonBtn": "Voir Bientôt"
   },
@@ -121,7 +157,9 @@
       "philippe" : {
         "role": "Directeur Marketing"
       }
-    }
+    },
+
+    "partner": "Et beaucoup d'autres partenaires"
 
   },
 
@@ -192,6 +230,8 @@
         "telephone": "Numéro de Téléphone",
         "email": "Courriel"
       },
+
+      "message": "Contenu de votre message",
 
       "sentSuccess": {
         "loading": "Chargement...",

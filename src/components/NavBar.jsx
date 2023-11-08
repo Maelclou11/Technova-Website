@@ -3,8 +3,10 @@ import '../CSS/components.css';
 import { imgLogoNavBar } from '../img/index.js';
 import { useTranslation } from 'react-i18next';
 import Animation from './Animation';
+import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
-function NavBar() {
+function NavBar({isWhite}) {
     /*  Ouvrir le Menu */
     const ToggleMenu = () => {
         const menuToggle = document.querySelector('.toggle');
@@ -20,15 +22,33 @@ function NavBar() {
         i18n.changeLanguage(language);
     };
 
+    $(window).scroll(() => {
+      if ($(window).scrollTop() > 0) {
+        $('.indexMenu').addClass('navbar-scrolled');
+      } else {
+        $('.indexMenu').removeClass('navbar-scrolled');
+      }
+    });
+
+    /* Scroller jusqu'a l'id */
+    const scrollToElement = (elementId) => {
+      setTimeout(() => {
+        const element = document.getElementById(elementId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 0);
+    };
+
   return (
     <div>
       <Animation />
-      <header className="indexMenu">
+      <header className="indexMenu" style={isWhite ? {background: "white"} : {background: ""}}>
         <div className="menu">
           <div className="left hidden tleft delay-100">
-            <a href="/index.html" className="logo" aria-label="Home">
-              <img className="logo-banner" src={imgLogoNavBar} alt="logo" />
-            </a>
+            <Link to="/" className="logo" aria-label="Home">
+                <img className="logo-banner" src={imgLogoNavBar} alt="logo" />
+            </Link>
             <div className="navlangwrap">
             {i18n.language !== 'fr' && (
                 <button
@@ -57,25 +77,25 @@ function NavBar() {
           <div className="right">
             <ul className="naviguation">
               <li className='hidden tright delay-400'>
-                <a href="#home">
+                <Link to="/" onClick={() => scrollToElement('home')}>
                     {t('navbar:home')}
-                </a>
+                </Link>
               </li>
               <li className='hidden tright delay-300'>
-                <a href="#service">
+                <Link to="/" onClick={() => scrollToElement('service')}>
                     {t('navbar:services')}
-                </a>
+                </Link>
               </li>
               <li className='hidden tright delay-200'>
-                <a href="#recentWork">
-                    {t('navbar:recentWorks')}
-                </a>
+                <Link to="/realisations" onClick={() => {ToggleMenu()}}>
+                  {t('navbar:recentWorks')}
+                </Link>
               </li>
               <li className='hidden tright delay-100'>
-                <a href="#contactUs">
+                <Link to="/" onClick={() => scrollToElement('contactUs')}>
                     {t('navbar:startAProject')}{' '}
                     <i className="fa-solid fa-arrow-right-long"></i>
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -119,24 +139,25 @@ function NavBar() {
           </div>
           <ul className="sideMenu">
             <li>
-              <a href="#home" onClick={ToggleMenu}>
+              <Link to="/" onClick={() => {scrollToElement('home'); ToggleMenu()}}>
                 {t('navbar:home')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#service" onClick={ToggleMenu}>
+              <Link to="/" onClick={() => {scrollToElement('service'); ToggleMenu()}}>
                 {t('navbar:services')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#recentWork" onClick={ToggleMenu}>
+              <Link to="/realisations" onClick={() => {ToggleMenu()}}>
                 {t('navbar:recentWorks')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contactUs" onClick={ToggleMenu}>
+              <Link to="/" onClick={() => {scrollToElement('contactUs'); ToggleMenu()}}>
                 {t('navbar:startAProject')}{' '}
-              </a>
+                <i className="fa-solid fa-arrow-right-long"></i>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { imgHomeCamera } from '../../img/index.js';
+import { iconWebDesign } from '../../img/index.js';
 import { Typewriter } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
 import '../../App.css';
@@ -13,8 +13,8 @@ function Accueil() {
     <section id="home" className="home">
         <div className="home__content">
             <h1>
-            <span className='db hidden up'>{t('home:home:title')}</span>
-            <span className='db hidden down'>
+            <span className='db hidden'>{t('home:home:title')}</span>
+            <span className='db hidden'>
                 {/* {t('home:home:title2')} */}
                 {' '}
                 <Typewriter
@@ -42,12 +42,22 @@ function Accueil() {
             </div>
         </div>
         <div className="home__img">
-            <div className="img-transition hidden">
-                <img className="overflowBottom" src={imgHomeCamera} alt="camera 3d"/>
-            </div>
+                <div className="img-transition hidden">
+                    <img className="overflowBottom" src={iconWebDesign} alt="camera 3d"/> 
+                </div>
+            {/* <div className="test-3d">
+                <Test3D />
+            </div> */}
         </div>
+
     </section>
   )
 }
 
 export default Accueil
+
+/* 
+            <div className="img-transition hidden">
+                 <img className="overflowBottom" src={imageAccueil} alt="camera 3d"/> 
+                </div>
+*/

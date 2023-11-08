@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 /*#region   NavBar  */
 /*#region      Menu  */
 header {
@@ -329,7 +332,7 @@ header ul li a:hover::before {
 .service-icon {
   text-align: center;
   margin-bottom: 1rem;
-  box-shadow: 0px 0px 15px 1px rgba(176, 176, 176, 0.33);
+  /* box-shadow: 0px 0px 15px 1px rgba(176, 176, 176, 0.33); */
   border-radius: 50%;
   height: 150px;
   width: 150px;
@@ -337,12 +340,16 @@ header ul li a:hover::before {
   justify-content: center;
   align-items: center;
   margin-top: -80px;
-  background: white;
+  /* background: white; */
   transition: all 0.8s ease;
+  transform: translateY(10px);
+}
+.service-icon img {
+  height: 100%;
 }
 .mainService:hover .service-icon {
   transition-delay: 0.3s;
-  transform: translateY(-30px) rotate(360deg);
+  transform: translateY(-20px) /* rotate(360deg) */;
 }
 .service-icon svg {
   /* font-size: 45px; */
@@ -540,7 +547,7 @@ header ul li a:hover::before {
 .works img.logoWork {
   position: absolute;
   top: unset;
-  bottom: 20px;
+  bottom: 50px;
   left: 20px;
   height: 70px;
   width: 70px;
@@ -1322,6 +1329,336 @@ hr {
   transform: translateX(40%);
 }
 /*#endregion  */
+/*#region   AccueilService  */
+
+/* #endregion */
+/* #region  DomainBenefit */
+.DomainBenefit {
+  font-family: Arial, sans-serif;
+  padding: var(--max-width-p);
+  color: white;
+}
+
+.domain-list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.domain-item {
+  width: 48%;
+  padding: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  position: relative;
+  font-size: calc(0.8rem + 0.5vw);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.domain-item svg {
+  margin-right: 1rem;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+.domain-item:hover {
+  background: white;
+  color: black;
+}
+.domain-item:hover svg {
+  color: var(--main-color-);
+}
+.domain-item.faded {
+  opacity: 0.08;
+}
+.domain-item .row {
+  display: flex;
+  align-items: center;
+}
+
+.benefits-section.hidden {
+  height: 0px;
+  padding: 0px;
+  margin-top: 0;
+  transition: all 0.1s;
+}
+.benefits-section.show {
+  height: auto;
+}
+
+.benefits-section {
+  width: 100%;
+  background: #000000;
+  padding: 20px;
+  transition: all 0.3s;
+  /* margin-top: 1.5rem; */
+  transform-origin: top;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  color: white;
+}
+
+.benefits-section h2 {
+  border-bottom: 2px solid var(--main-color-);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.benefits-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-section li {
+  font-size: calc(1rem + 0.4vw);
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* #endregion */
+/* #region  QuestionFaq */
+.QuestionFaq {
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+  user-select: none;
+  height: fit-content;
+  flex-grow: 1;
+}
+.QuestionFaq:hover {
+  cursor: pointer;
+}
+.QuestionFaq .puce {
+  width: 1rem;
+  height: 1rem;
+  background: var(--main-color-);
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: inline-block;
+}
+.QuestionFaq svg {
+  color: var(--main-color-);
+  font-size: 1.4rem;
+}
+.QuestionFaq .question svg {
+  font-size: 1.6rem;
+  margin-right: 0.6rem;
+}
+.QuestionFaq .question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.QuestionFaq .question {
+  font-size: calc(0.8rem + 0.6vw);
+  font-weight: 400;
+}
+.QuestionFaq .reponse {
+  height: 0px;
+  opacity: 0;
+  transition: all 0s ease;
+}
+.QuestionFaq .reponse.active {
+  opacity: 1;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+/* #endregion */
+/* #region  InstantQuote */
+.InstantQuote {
+  display: flex;
+  justify-content: space-around;
+  padding: calc(2rem + 3vh) calc(1rem + 6vw);
+  background: var(--main-color-);
+  align-items: center;
+  gap: 2rem;
+}
+.InstantQuote .contentBox {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.InstantQuote .contentBox h2 {
+  font-weight: 600;
+}
+.InstantQuote .contentBox p {
+  font-size: calc(0.8rem + 0.4vw);
+  margin-bottom: 1rem;
+}
+.InstantQuote .contentBox .form {
+  display: flex;
+  gap: 20px;
+}
+.InstantQuote .contentBox .form label {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(0.5rem + 0.2vw);
+}
+.InstantQuote .contentBox .form input {
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 0.8rem;
+}
+.InstantQuote .contentBox .form button {
+  padding: 0.6rem 4rem;
+  height: max-content;
+}
+.InstantQuote button {
+  border: black 3px solid;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-size: calc(1rem + 0.3vw);
+  background: white;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.InstantQuote button:hover {
+  background: black;
+  color: white;
+}
+.InstantQuote button svg {
+  transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-left: 1rem;
+}
+.InstantQuote button:hover svg {
+  transform: rotate(360deg);
+  color: white;
+}
+.InstantQuote .imgBox {
+  max-width: 300px;
+}
+.InstantQuote .imgBox img {
+  object-fit: contain;
+  max-width: 300px;
+  width: 100%;
+  max-height: 250px;
+}
+/* #endregion */
+/* #region  ServiceCardImage */
+.ServiceCardImage {
+  width: calc(20vw - 30px);
+  height: calc(20vw - 30px);
+  min-width: 350px;
+  min-height: 350px;
+
+  /* height: 350px; */
+  display: flex;
+  flex-direction: column;
+  padding: calc(2rem + 1vw) calc(1rem + 0.7vw);
+  position: relative;
+}
+.ServiceCardImage:hover {
+  cursor: pointer;
+}
+.ServiceCardImage .backgroundLayer {
+  border-radius: 15px;
+}
+.ServiceCardImage .service-icon {
+  position: absolute;
+  top: 0;
+  background: var(--main-color-);
+  width: 80px;
+  height: 80px;
+  padding: 1.4rem;
+  transform: translateY(30%);
+}
+.ServiceCardImage.hover .service-icon {
+  background: black;
+}
+.ServiceCardImage .service-icon img {
+  width: 100%;
+}
+.ServiceCardImage h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: calc(1.4rem + 0.7vw);
+  margin-bottom: calc(0.5rem + 0.2vw);
+}
+.ServiceCardImage.hover h3 {
+  color: black;
+}
+.ServiceCardImage .animated button {
+  padding: 0.5rem 2rem;
+  font-size: calc(0.9rem + 0.2vw);
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 30px;
+  background: var(--main-color-);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.ServiceCardImage .animated button:hover {
+  background: var(--main-color-hover-);
+}
+.ServiceCardImage .animated {
+  font-size: calc(1rem + 0.2vw);
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.3s ease-in-out;
+}
+
+.ServiceCardImage .animated.hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+.backgroundLayer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: #2f2f2f; */
+  background-color: #000000;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+/* #endregion */
+/* #region  TitreSurtitre */
+.TitreSurtitre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.TitreSurtitre p {
+  color: var(--main-color-);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: calc(1rem + 0.1vw);
+}
+.TitreSurtitre h2 {
+  font-size: calc(1rem + 1vw) !important;
+}
+/* #endregion */
+/* #region  LogoCarousel */
+.LogoCarousel-logo {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LogoCarousel-logo img {
+  max-width: 250px;
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+/* #endregion */
 
 /*#region        Entering Under 1200px        */
 @media screen and (max-width: 1200px) {
@@ -1371,6 +1708,16 @@ hr {
   }
 }
 /* #endregion */
+/*#region        Entering Under 800px        */
+@media screen and (max-width: 800px) {
+  .VisiteVirtuelle .row .chevron {
+    position: absolute;
+    top: 50%;
+    right: -10% !important;
+    transform: translateY(-50%);
+  }
+}
+/* #endregion */
 /*#region        Entering Under 768px        */
 @media screen and (max-width: 768px) {
   .title-h2-l {
@@ -1382,9 +1729,6 @@ hr {
   }
   #service {
     padding: 80px 40px 10px 40px !important;
-  }
-  footer {
-    margin-top: 40px;
   }
   .colFooter:nth-child(3) {
     flex-basis: 40%;
@@ -1404,6 +1748,55 @@ hr {
   }
   .workCard.delay-300 {
     transition-delay: 400ms !important;
+  }
+  .TitreSurtitre h2 {
+    text-align: center;
+  }
+  .ServiceCardImage .animated {
+    font-size: calc(1rem + 0.2vw);
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .ServiceCardImage .animated p {
+    color: white;
+  }
+  .ServiceCardImage.hover .animated p {
+    color: black;
+  }
+  .domain-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .domain-item {
+    width: calc(50% - 10px);
+  }
+  .DomainBenefit {
+    font-family: Arial, sans-serif;
+    padding: 4rem 2rem;
+    color: white;
+  }
+  .VisiteVirtuelle .row .chevron {
+    position: absolute;
+    top: 50%;
+    right: -5% !important;
+    transform: translateY(-50%);
+  }
+}
+/* #endregion */
+/*#region        Entering Under 690px        */
+@media screen and (max-width: 690px) {
+  .domain-item {
+    width: 100% !important;
+  }
+  .VisiteVirtuelle .row .chevron {
+    position: absolute;
+    top: 50%;
+    right: 5% !important;
+    transform: translateY(-50%);
   }
 }
 /* #endregion */
@@ -1452,6 +1845,24 @@ hr {
   }
   .workCard .works:hover img.logoWork {
     filter: brightness(2) !important;
+  }
+  .LogoCarousel-logo {
+    position: relative;
+    /* width: calc(30% - 20px); */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .LogoCarousel-logo img {
+    width: 80%;
+    object-fit: contain;
+  }
+  .LogoCarousel-logo a {
+    display: flex;
+    justify-content: center;
+  }
+  #recentWork .works__container .slick-slide {
+    margin: 0 0rem;
   }
 }
 /* #endregion */

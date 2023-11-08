@@ -1,0 +1,84 @@
+{
+    "pageTitle": "Recent Work",
+    "pageTexte": "Welcome to our recent work page, where you can explore and discover the innovative projects we've been working on. This page showcases the diversity of our expertise and the passion we have for delivering top-quality results. Browse through our portfolio to get a glimpse of the amazing work we've done and the impact we've made. Each project has a unique story, and we invite you to visit and learn more about them.",
+    "backToRecentWork": "Back to Recent Work",
+
+
+    "DeltaMarriott": {
+        "companyName": "Delta Marriott",
+        "iframeTitle": "Delta Marriott Virtual Tour",
+        "typeOfWork": "Virtual Tour",
+        "description": "We've used ingenious technology to capture high-resolution images of facilities and guest rooms, allowing visitors to experience the superior quality and new amenities of the Delta Marriott hotel. This immersive virtual tour will enable guests to walk around the hotel and discover the rooms, suites and various facilities, such as the spa, the fitness room and the swimming pool. This cutting-edge tool is also valuable when renting rooms or for visits with brokers for the sale of specific units. By using this virtual tour, brokers can provide their clients with a premium tour experience that allows them to see all the features and benefits of the Delta Marriott hotel. This virtual tour is also an excellent tool to promote the hotel on various online marketing channels, offering a broader audience the opportunity to experience the exceptional facilities and quality of the Delta Marriott hotel."
+    },
+
+    "Concordia": {
+        "companyName": "Concordia University",
+        "iframeTitle": "Virtual Tour of Concordia University",
+        "typeOfWork": "Virtual Tour",
+        "description": "Experience the University of Concordia at Montreal like never before with our immersive virtual tour. Using state-of-the-art technology, we have captured high-resolution images of our offices, providing visitors with a remarkable tour experience. Explore our stunning facilities and get a glimpse of our welcoming environment. This virtual tour is an excellent tool for prospective students, allowing them to visualize themselves at theirs university. It's also a valuable resource for virtual meetings and showcasing our campus to potential partners. Discover the University of Concordia at Montreal from the comfort of your own screen! "
+    },
+
+    "Prevel": {
+        "companyName": "Prevel Real Estate",
+        "iframeTitle": "Virtual Tour of Prevel Real Estate",
+        "typeOfWork": "Virtual Tour",
+        "description": "Our virtual tour company partnered with Group Prevel to create three immersive virtual tours for their real estate projects. Leveraging our expertise, we captured 360-degree images of each space, showcasing the unique features of each property. The virtual tours allow potential clients to experience the properties in a realistic and detailed manner, fostering engagement and interest. By using these virtual tours as a marketing tool, Group Prevel is able to reach a wider audience and stand out in the real estate market. We are proud of our partnership with Group Prevel and look forward to collaborating on future projects."
+    },
+
+
+    "brunelleSport": {
+        "companyName": "Brunelle Sport",
+        "iframeTitle": "Virtual Tour of Brunelle Sport",
+        "typeOfWork": "Virtual Tour",
+        "description": "Our company recently partnered with Brunelle Sport to create an immersive virtual tour of its store. Our team worked closely with theirs to understand their needs and create a 3D experience that perfectly matched their vision. We used state-of-the-art technologies to capture 360-degree images of the store and integrated them into an interactive virtual tour. Brunelle customers can now explore the online store at their own pace, discover the products offered and engage in the store's ambiance without leaving the comfort of their homes. This virtual tour improved Brunelle Sport's customer experience by offering a uniquely immersive venture. Customers can shop online more conveniently and realistically, increasing online sales and customer satisfaction.",
+        "typeOfWork2": "E-commerce Optimisation",
+        "description2": "Tecnova's team devotes itself to keeping Brunelle Sport at the top of its game. As a notable leader in Quebec's ski industry, we ensure that their online store and all in-store IT systems operate effectively and efficiently, constantly striving for excellence at every stage of the process."
+    },
+
+
+    "jacquesEtFils": {
+        "companyName": "Jacques & Fils Funeral Home",
+        "iframeTitle": "Virtual Tour Jacques & Fils Funeral Home",
+        "typeOfWork": "Virtual Tour",
+        "description": "Our virtual tour company is proud to have collaborated with Jacques & Fils Funeral Home in Lac-Mégantic to create an immersive virtual tour. This virtual tour provides clients with the opportunity to become acquainted with Jacques & Fils' facilities, including visitation rooms, chapels, and memorial spaces. Visitors can freely navigate through the different areas, gaining a comprehensive view of the funeral home's layout. We are honored to have supported Jacques & Fils in their commitment to providing families with virtual access to their facilities. This virtual tour offers a unique way to pay tribute to loved ones and facilitate the funeral planning process. "
+    },
+
+
+    "skyGym": {
+        "companyName": "Sky Gym",
+        "iframeTitle": "Virtual Tour Sky Gym",
+        "typeOfWork": "Virtual Tour",
+        "description": "Our company recently collaborated with Sky Gym to create an immersive virtual tour of its facilities. Thanks to this virtual tour, potential customers can now discover the gym's facilities online instead of travelling for an on-site visit. We've used advanced technology to capture 360-degree images of every room, equipment and workout space. Our team worked closely with the owner of Sky Gym to ensure we accurately captured every detail. We have also guaranteed that the virtual tour reflects the owner's importance on the premises' cleanliness and quality. The virtual tour lets potential customers visit the Sky Gym facilities quickly and conveniently. The owner can also use the virtual tour to promote the gym's facilities on different social networks and websites, allowing a broader audience to discover the unique experience offered by Sky Gym."
+    },
+
+
+    "mariePierDube": {
+        "companyName": "Marie-Pier Dubé Dental Clinic",
+        "iframeTitle": "Virtual Tour of Marie-Pier Dubé Dental Clinic",
+        "typeOfWork": "Virtual Tour",
+        "description": "Creating a 3D scan of Marie-Pier Dubé's dental clinic will allow patients to take a virtual tour of the clinic and familiarize themselves with the space before their appointment. This can help to reduce anxiety and increase patient comfort, leading to a better overall experience. Additionally, the virtual tour can help the clinic to showcase their technology and amenities, which can be a marketing tool to attract new patients. The 3D scan can also be used for training purposes, allowing new employees to become familiar with the clinic layout and equipment before their first day on the job.",
+        "typeOfWork2": "Website",
+        "description2": "Our company enjoyed working with the Marie-Pier Dubé dental clinic to design its website. The dental clinic's website offers comprehensive information on dental services, offers and promotions, client testimonials and contact information. We have developed a professional interface that reflects the expertise of the dental clinic and is easily navigable for visitors. Our design makes it easy for clients to find answers to their questions by visiting the clinic's website. We have also optimized the website to be rapid, easy to navigate and provide visitors with a pleasant, user-friendly experience."
+    },
+
+    "flawlaceSupply": {
+        "companyName": "Flawlace Supply",
+        "iframeTitle": "E-Commerce Website of Flawlace Supply",
+        "typeOfWork": "E-Commerce Website",
+        "description": "In partnership with Flawlace Supply, a company specializing in replacement shoelaces, we've crafted an innovative e-commerce website. Our platform provides customers with the opportunity to discover and purchase products with ease. With intuitive navigation, users can access comprehensive information about each lace and finalize their purchases with confidence. Our mission was to blend aesthetics and functionality for Flawlace Supply's customers."
+    },
+
+    "vesiDesign": {
+        "companyName": "Vesi Design",
+        "iframeTitle": "E-commerce Website of Vesi Design",
+        "typeOfWork": "E-commerce Website",
+        "description": "We worked closely with Vesi Design, a company specializing in aquatic filters, to create an e-commerce website. Our team developed a user-friendly website that allows customers to easily browse and purchase Vesi Design products online. With an intuitive interface, users can explore the range of aquatic filters, obtain detailed product information, and place their orders with just a few clicks. Our goal was to create a convenient and secure online shopping experience for Vesi Design customers."
+    },
+
+    "montrealDuFutur": {
+        "companyName": "Montreal Du Futur",
+        "iframeTitle": "Virtual Tour of Montreal Du Futur",
+        "typeOfWork": "Virtual Tour",
+        "description": "Thanks to Matterport technology, we have created a virtual tour of Montreal of the Future. This immersive experience allows virtual visitors to explore the temporary exhibition that took place at 1000 de la Gauchetière last June. This promotional platform has enabled Montreal of the Future to reach a broader audience in order to discover new prospects for the upcoming edition!"
+    }
+}

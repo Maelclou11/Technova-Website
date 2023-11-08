@@ -1,0 +1,232 @@
+{
+    "webdesign": {
+        "accueil": {
+            "titre": "Transform your vision into a powerful online presence.",
+            "surtitre": "Website Design/Optimization",
+            "texte": "Whether you're launching your e-commerce store, optimizing your existing platform, or designing an elegant website, Tecnova is your partner of choice. Turn your vision into reality with our unparalleled expertise.",
+            "button1": "View demos",
+            "button2": "Schedule a meeting"
+        },
+
+        "service": {
+            "titre": "Services That Help You Grow",
+            "surtitre": "WHAT WE DO",
+            "service1": "Web Design",
+            "desc1": "Designing attractive and intuitive interfaces to captivate and engage your visitors.",
+            "service2": "Web Development",
+            "desc2": "Turning your ideas into digital realities with tailored and efficient web solutions.",
+            "service3": "E-Commerce Optimization",
+            "desc3": "Maximize your online sales with proven and effective optimization strategies."
+        },
+
+        "probleme": {
+            "titre": "Facing challenges with",
+            "probleme1": "Attracting new customers with your current website?",
+            "probleme2": "Updating and optimizing your site for search engines?",
+            "probleme3": "Refreshing the look of your website?",
+            "probleme4": "Increasing your site's visibility to your target audience?",
+            "probleme5": "Standing out in a crowded market?",
+            "button": "Get a free quote"
+        },
+
+        "processus": {
+            "titre": "Working Process",
+            "surtitre": "HOW WE DO IT",
+            "etape1": {
+                "titre": "Consultation",
+                "desc": "Initial meeting with the client to understand their needs."
+            },
+            "etape2": {
+                "titre": "Design",
+                "desc": "Creation of mockups based on the client's requirements."
+            },
+            "etape3": {
+                "titre": "Development",
+                "desc": "Turning the mockups into a functional website."
+            },
+            "etape4": {
+                "titre": "Launch",
+                "desc": "Going live with the website."
+            },
+            "etape5": {
+                "titre": "Support",
+                "desc": "Ongoing assistance to ensure the website runs smoothly."
+            }
+        },
+
+        "realisation": {
+            "titre": "Our Projects"
+        },
+
+        "pointfort": {
+            "titre": "Our Strengths",
+            "point1": "Responsive Design",
+            "point2": "SEO Optimization",
+            "point3": "CMS Integration",
+            "point4": "Innovative UI/UX",
+            "point5": "Continuous Maintenance",
+            "point6": "Integrated E-commerce",
+            "point7": "Regular Monitoring",
+            "point8": "Web Marketing",
+            "point9": "Web Application"
+        },
+
+        "faq": {
+            "titre": "Frequently Asked Questions",
+            "question1": "How long does it take to create a website?",
+            "reponse1": "The development duration of a website depends on its complexity and required features. Typically, it takes a few weeks. However, we are flexible and adapt to your needs. If you have specific deadlines, we will do our best to meet them while ensuring the quality of work.",
+            "question2": "How much does it cost to create a website?",
+            "reponse2": "The cost of a website varies based on its specifics and functionalities. We would be delighted to discuss your requirements and provide you with a tailored quote.",
+            "question3": "Will my site be mobile-friendly (responsive)?",
+            "reponse3": "Absolutely! All the sites we develop are designed to be fully responsive, ensuring an optimal user experience on all devices.",
+            "question4": "Do you offer maintenance services after the site launch?",
+            "reponse4": "Yes, we offer maintenance services to ensure that your site operates smoothly. We provide various maintenance packages tailored to your needs.",
+            "question5": "Do you offer solutions for online stores?",
+            "reponse5": "Absolutely! We provide comprehensive e-commerce solutions, from store design to payment system integration. Our goal is to offer you a robust and secure platform to sell your products online.",
+            "question6": "How can you help me increase my online sales?",
+            "reponse6": "We take a holistic approach to optimize sales. This includes enhancing the user experience, optimizing the conversion funnel, and implementing digital marketing strategies to attract and convert more customers."
+        },
+
+
+        "cta": {
+            "titre1": "Ready to optimize your online presence?",
+            "titre2": "Contact us now",
+            "button": "Book an Appointment"
+        }
+    },
+
+    "virtualTour": {
+        "accueil": {
+            "surTitre": "3D Digital Scanning / Virtual Tours",
+            "titre": "Offer an Immersive and Innovative Experience",
+            "texte": "Virtual tours allow businesses to conduct inspections, evaluations, and presentations remotely, eliminating the need for travel and costly meetings, resulting in significant time and money savings.",
+            "button1": "View Demos",
+            "button2": "Request a Scan"
+        },
+
+        "trustBy": "A technology trusted by:",
+
+        "domainBenefit": {
+            "titre": "Matterport Virtual Tours",
+            "domaine1": "Residential Real Estate",
+            "benefit1": "Qualify potential buyers by offering them the chance to explore their future home, promoting informed decision-making.",
+            "domaine2": "Commercial Real Estate",
+            "benefit2": "Provide investors and tenants with an immersive experience of your commercial spaces, reducing physical visits and speeding up leasing or sales.",
+            "domaine3": "Funeral Homes",
+            "benefit3": "In these sensitive times, offer families the opportunity to virtually tour your funeral complex, allowing them to make informed decisions remotely.",
+            "domaine4": "Prefab Homes",
+            "benefit4": "Highlight the modernity and functionality of your prefab homes with detailed virtual tours, giving clients a realistic view of their future living space.",
+            "domaine5": "Educational Institutions",
+            "benefit5": "Allow parents and students to explore your educational facilities interactively, reinforcing trust in the quality of education you provide.",
+            "domaine6": "Stores",
+            "benefit6": "Offer an immersive online shopping experience by allowing customers to browse your products as if they were in the physical store, thus boosting sales.",
+            "domaine7": "Bars",
+            "benefit7": "Attract customers by offering a visual preview of your bar's unique ambiance, sparking their interest to spend time at your venue.",
+            "domaine8": "Yachts",
+            "benefit8": "Showcase the luxury and exceptional design of your yachts in a premium manner with captivating virtual tours!",
+            "domaine9": "Hotels and Spas",
+            "benefit9": "Invite travelers to experience the serenity and comfort of your hotel and spa facilities even before they arrive.",
+            "domaine10": "Recreational Vehicles",
+            "benefit10": "Allow road trip enthusiasts to explore the interiors of your RVs and motorhomes, facilitating their purchase process.",
+            "domaine11": "Gyms",
+            "benefit11": "Show potential members your state-of-the-art equipment and gym layout, encouraging them to join and achieve their fitness goals.",
+            "domaine12": "Dealerships",
+            "benefit12": "Offer car buyers the opportunity to thoroughly inspect vehicles for sale, establishing trust between the dealership and the customer.",
+            "domaine13": "Tourist Attractions",
+            "benefit13": "Attract new travelers by offering them a visual teaser of the exceptional experience they'll have when visiting your tourist site!"
+        },
+
+        "instantQuote": {
+            "titre": "Get an instant quote at",
+            "texte": "If you wish to receive our 'Matterport 3D Virtual Tours Information Pack & Price List', please add your details below.",
+            "button": "Request A Free Quote"
+        },
+
+        "stat": {
+            "stat1": {
+                "title": "Boosts Sales",
+                "desc": "By inspiring more customers to visit your properties"
+            },
+            "stat2": {
+                "title": "Reduces Travel Time",
+                "desc": "By eliminating visitation time"
+            },
+            "stat3": {
+                "title": "Reduces Wasted Time",
+                "desc": "By granting access to your properties"
+            },
+            "stat4": {
+                "title": "Reduces Pollution",
+                "desc": "By avoiding unnecessary travel"
+            }
+        },
+
+        "question": {
+            "titre": "Frequently Asked Questions",
+            "question1": "How long does it take to 3D scan a house?",
+            "reponse1": "It takes about 90 minutes to a few hours before your Matterport 3D digital scanner is ready to use. The time spent on a 3D scan will depend on the size and complexity of your property, so contact us for a more precise estimate.",
+            "question2": "What is Matterport for real estate?",
+            "reponse2": "Matterport allows real estate companies to produce a 3D scan of their buildings so they can be viewed by potential buyers from the comfort of their screens. This can preserve the property's ambiance, capturing its luxurious design that you've worked hard to produce.",
+            "question3": "How much does a Matterport 3D tour cost?",
+            "reponse3": "Our Matterport 3D virtual tours start from $350. This is for a small space, and prices increase from there based on total area, space complexity, and exact location. For an instant quote, contact our team today.",
+            "question4": "What is a 3D scan of a house?",
+            "reponse4": "A 3D scan captures a home setting allowing someone to manipulate objects, colors, and other room properties, then store them digitally. This allows creatives and sellers to showcase their homes online to a remote audience or even use it for animated videos or games."
+        },
+
+        "cta": {
+            "titre": "Embrace the Virtual Tour Revolution",
+            "button1": "Our Projects",
+            "button2": "Start My Project"
+        }
+    },
+
+    "cybersecurite": {
+        "accueil": {
+            "surtitre": "Data Protection & Cybersecurity",
+            "titre1": "COMPLY YOUR BUSINESS WITH THE",
+            "titre2": "BILL 25",
+            "texte": "Bill 25 in Quebec aims to protect personal information by holding companies accountable. It requires them to comply with rules regarding the collection and processing of data. Severe penalties can be imposed for non-compliance, reaching up to 25 million dollars or 4% of the company's global turnover.",
+            "button1": "Do I need to comply?",
+            "button2": "Comply here"
+        },
+
+        "collecte": {
+            "titre": "DO YOU COLLECT PERSONAL INFORMATION?",
+            "info1": "Personal Information",
+            "info2": "Biometric Information",
+            "info3": "Banking Information"
+        },
+
+        "mesures": {
+            "titre": "IF YES, HAVE YOU IMPLEMENTED THESE CYBERSECURITY MEASURES?",
+            "mesuresListe": {
+                "mesure1": "I have a personal information protection officer",
+                "mesure2": "I have a privacy policy",
+                "mesure3": "I back up my data using the '3-2-1-0' method",
+                "mesure4": "I have installed good antivirus software on my workstations",
+                "mesure5": "I have configured a firewall",
+                "mesure6": "Etc."
+            } 
+        },
+
+        "amendes": {
+            "titre": "FINES AND SANCTIONS",
+            "texte": "Financial Penalties",
+            "amendesListe": {
+                "amende1": "A fine of up to 25,000,000 Canadian dollars",
+                "amende2": "An amount corresponding to 4% of the company's global turnover from the previous fiscal year",
+                "amende3": "Stronger sanctions are provided for the most serious offenses"
+            }
+        },
+
+        "CTA": {
+            "titre1": "READY TO COMPLY?",
+            "titre2": "CONTACT US NOW",
+            "button": "Comply",
+            "documentation": "For more information, visit",
+            "link": "the official documentation"
+        }
+    }
+
+
+}

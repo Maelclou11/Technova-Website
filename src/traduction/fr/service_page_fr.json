@@ -1,0 +1,230 @@
+{
+    "webdesign": {
+        "accueil":  {
+            "titre": "Transformer votre vision en une présence en ligne puissante.",
+            "surtitre": "Conception/Optimisation de site Web",
+            "texte": "Que ce soit pour lancer votre boutique e-commerce, optimiser votre plateforme existante ou concevoir un site web élégant, Tecnova est votre partenaire de choix. Transformez votre vision en réalité avec notre expertise inégalée.",
+            "button1": "Voir les démos",
+            "button2": "Céduler une réunion"
+        },
+
+        "service": {
+            "titre": "Des Services Qui Vous Aident à Grandir",
+            "surtitre": "CE QUE NOUS FAISONS",
+            "service1": "Design Web",
+            "desc1": "Concevoir des interfaces attrayantes et intuitives pour captiver et engager vos visiteurs.",
+            "service2": "Développement Web",
+            "desc2": "Transformer vos idées en réalités numériques avec des solutions web sur mesure et performantes.",
+            "service3": "Optimisation E-Commerce",
+            "desc3": "Maximiser vos ventes en ligne grâce à des stratégies d'optimisation éprouvées et efficaces."
+        },
+
+        "probleme": {
+            "titre": "Vous rencontrez des difficultés pour",
+            "probleme1": "Attirer de nouveaux clients avec votre site web actuel?",
+            "probleme2": "Mettre à jour et optimisé votre site pour les moteurs de recherche?",
+            "probleme3": "Donner un coup de jeune à votre site web?",
+            "probleme4": "Augmenter la visibilité de votre site auprès de votre audience cible?",
+            "probleme5": "à vous démarquer dans un marché encombré?",
+            "button": "Obtenir un devis gratuit"
+        },
+
+        "processus": {
+            "titre": "Processus de travail",
+            "surtitre": "NOTRE MANIÈRE DE FAIRE",
+            "etape1": {
+                "titre": "Consultation",
+                "desc": "Première rencontre avec le client pour comprendre ses besoins."
+            },
+            "etape2": {
+                "titre": "Conception",
+                "desc": "Création de maquettes basées sur les besoins du client."
+            },
+            "etape3": {
+                "titre": "Développement",
+                "desc": "Transformation des maquettes en un site web fonctionnel."
+            },
+            "etape4": {
+                "titre": "Lancement",
+                "desc": "Mise en ligne du site web."
+            },
+            "etape5": {
+                "titre": "Support",
+                "desc": "Assistance continue pour assurer le bon fonctionnement du site."
+            }
+        },
+
+        "realisation": {
+            "titre": "Nos Réalisations"
+        },
+
+        "pointfort": {
+            "titre": "Nos Points Forts",
+            "point1": "Design responsive",
+            "point2": "Optimisation SEO",
+            "point3": "Intégration CMS",
+            "point4": "UI/UX innovant",
+            "point5": "Maintenance continue",
+            "point6": "E-commerce intégré",
+            "point7": "Suivi régulier",
+            "point8": "Marketing Web",
+            "point9": "Application Web"
+        },
+
+        "faq": {
+            "titre": "Questions Fréquentes",
+            "question1": "Combien de temps cela prend-il pour créer un site web ?",
+            "reponse1": "La durée de développement d'un site web dépend de la complexité et des fonctionnalités requises. Habituellement, cela prend quelques semaines. Cependant, nous sommes flexibles et nous nous adaptons à vos besoins. Si vous avez des délais spécifiques, nous ferons de notre mieux pour les respecter tout en garantissant la qualité du travail.",
+            "question2": "Combien coûte la création d'un site web ?",
+            "reponse2": "Le coût d'un site web varie en fonction de ses spécificités et de ses fonctionnalités. Nous serions ravis de discuter de vos besoins et de vous fournir un devis adapté.",
+            "question3": "Mon site sera-t-il adapté aux mobiles (responsive) ?",
+            "reponse3": "Absolument ! Tous les sites que nous développons sont conçus pour être entièrement responsifs, garantissant une expérience utilisateur optimale sur tous les appareils.",
+            "question4": "Proposez-vous des services de maintenance après le lancement du site ?",
+            "reponse4": "Oui, nous offrons des services de maintenance pour garantir que votre site fonctionne sans problème. Nous proposons différents forfaits de maintenance adaptés à vos besoins.",
+            "question5": "Proposez-vous des solutions pour les boutiques en ligne ?",
+            "reponse5": "Absolument ! Nous offrons des solutions e-commerce complètes, de la conception de la boutique à l'intégration des systèmes de paiement. Notre objectif est de vous fournir une plateforme robuste et sécurisée pour vendre vos produits en ligne.",
+            "question6": "Comment pouvez-vous m'aider à augmenter mes ventes en ligne ?",
+            "reponse6": "Nous adoptons une approche holistique pour optimiser les ventes. Cela inclut l'amélioration de l'expérience utilisateur, l'optimisation du tunnel de conversion, et l'implémentation de stratégies de marketing digital pour attirer et convertir davantage de clients."
+        },
+
+        "cta": {
+            "titre1": "Prêt à optimiser votre présence en ligne ? ",
+            "titre2": "Contactez-nous maintenant",
+            "button": "Prendre Rendez-Vous"
+        }
+    },
+
+    "virtualTour": {
+        "accueil": {
+            "surTitre": "Numérisation numérique 3D / Visites virtuelles",
+            "titre": "Offrez une Expérience Immersive et Innovante",
+            "texte": "Les visites virtuelles permettent aux entreprises de faire des inspections, des évaluations et des présentations à distance, éliminant ainsi la nécessité de déplacements et de réunions coûteuses, ce qui se traduit par des économies de temps et d'argent considérables.",
+            "button1": "Voir Les Démos",
+            "button2": "Demander un scan"
+        },
+
+        "trustBy": "Une technologie approuvée par :",
+
+        "domainBenefit": {
+            "titre": "Visites virtuelles Matterport",
+            "domaine1": "Immobilier résidentiel",
+            "benefit1": "Qualifiez vos acheteurs potentiels en leur offrant la possibilité d'explorer leur future maison, favorisant une prise de décision éclairée.",
+            "domaine2": "Immobilier commercial",
+            "benefit2": "Présentez aux investisseurs et aux locataires une expérience immersive de vos espaces commerciaux, réduisant les visites physiques et accélérant la location ou la vente.",
+            "domaine3": "Complexes funéraires",
+            "benefit3": "Dans ces moments délicats, offrez aux familles la possibilité de visiter virtuellement votre complexe funéraire, leur permettant de prendre des décisions éclairées à distance.",
+            "domaine4": "Maisons préfabriquées",
+            "benefit4": "Mettez en avant la modernité et la fonctionnalité de vos maisons préfabriquées grâce à des visites virtuelles détaillées, donnant aux clients une vision réaliste de leur futur espace de vie.",
+            "domaine5": "Établissements scolaires",
+            "benefit5": "Permettez aux parents et aux élèves de découvrir vos installations éducatives de manière interactive, renforçant la confiance dans la qualité de l'éducation que vous offrez.",
+            "domaine6": "Magasins",
+            "benefit6": "Offrez une expérience de shopping en ligne immersive en permettant aux clients de parcourir vos produits comme s'ils étaient dans le magasin physique, stimulant ainsi les ventes.",
+            "domaine7": "Bars",
+            "benefit7": "Attirez les clients en leur offrant un aperçu visuel de l'ambiance unique de votre bar, suscitant leur intérêt à venir passer du temps chez vous.",
+            "domaine8": "Yachts",
+            "benefit8": "Présentez le luxe et le design exceptionnel de vos yachts de manière haut de gamme avec des visites virtuelles captivantes!",
+            "domaine9": "Hôtels et spas",
+            "benefit9": "Invitez les voyageurs à découvrir la sérénité et le confort de vos installations hôtelières et de spa avant même leur arrivée.",
+            "domaine10": "Véhicules récréatifs",
+            "benefit10": "Permettez aux passionnés de voyages sur route d'explorer l'intérieur de vos véhicules récréatifs et camping-cars, facilitant leur processus d'achat.",
+            "domaine11": "Gym",
+            "benefit11": "Montrez aux membres potentiels l'équipement de pointe et l'agencement de votre salle de sport, les incitant à rejoindre pour atteindre leurs objectifs de remise en forme.",
+            "domaine12": "Concessionnaires",
+            "benefit12": "Offrez aux acheteurs automobiles la possibilité d'inspecter minutieusement les véhicules en vente, établissant ainsi un lien de confiance entre le concessionnaire et le client.",
+            "domaine13": "Attraits touristiques",
+            "benefit13": "Attirer de nouveaux voyageurs en leur proposant un avant-goût visuel de l'expérience exceptionnelle qu'ils vivront en visitant votre site touristique!"
+        },
+
+        "instantQuote": {
+            "titre": "Obtenez un devis instantané au",
+            "texte": "Si vous souhaitez recevoir notre 'Pack d'Informations & Liste de Prix sur les Visites Virtuelles 3D Matterport', veuillez ajouter vos coordonnées ci-dessous.",
+            "button": "Demander un devis gratuit"
+        },
+
+        "stat": {
+            "stat1": {
+                "title": "Augmente les ventes",
+                "desc": "En inspirant plus de clients à visiter vos propriétés"
+            },
+            "stat2": {
+                "title": "Réduit le temps de déplacement",
+                "desc": "En enlevant le temps de visite"
+            },
+            "stat3": {
+                "title": "Réduit le temps perdu",
+                "desc": "En donnant accès à vos propriétés "
+            },
+            "stat4": {
+                "title": "Réduit la pollution",
+                "desc": "En évitant les déplacements inutiles"
+            }
+        },
+
+        "question": {
+            "titre": "Questions Fréquentes",
+            "question1":"Combien de temps faut-il pour scanner 3D une maison ?",
+            "reponse1": "Il faut environ 90 minutes à quelques heures avant que votre scanner numérique Matterport 3D ne soit prêt à l'emploi. Le temps passé sur un scanner 3D dépendra de la taille et de la complexité de votre propriété, alors contactez-nous pour une estimation plus précise.",
+            "question2":"Qu'est-ce que Matterport pour l'immobilier?",
+            "reponse2": "Matterport permet aux sociétés immobilières de produire un balayage de propriétés 3D de leurs bâtiments afin qu'ils puissent être vus par des acheteurs potentiels depuis le confort de leurs écrans. Cela peut conserver l'atmosphère du domaine, capturant son design luxueux que vous avez travaillé dur pour produire.",
+            "question3":"Combien coûte une tournée 3D de Matterport ?",
+            "reponse3": "Nos visites virtuelles 3D de Matterport commencent à partir de 350$. C'est pour un petit espace et les prix augmentent à partir de là en fonction de la surface totale, de la complexité de l'espace et de l'emplacement exact. Pour obtenir une citation instantanée, contactez notre équipe aujourd'hui.",
+            "question4":"Qu'est-ce qu'un scanner 3D d'une maison ?",
+            "reponse4": "Une numérisation 3D numérise un cadre domestique qui permet à quelqu'un de manipuler les objets, les couleurs et d'autres propriétés des pièces, puis de les stocker sous forme numérique. Cela permet aux créatifs et aux vendeurs de mettre en valeur leurs maisons en ligne à un public éloigné ou même de l'utiliser pour des vidéos ou des jeux animés."
+        },
+
+        "cta": {
+            "titre": "Adoptez la Révolution de la Visite Virtuelle",
+            "button1": "Nos Réalisations",
+            "button2": "Débuter Mon Projet"
+        }
+
+    },
+
+    "cybersecurite": {
+        "accueil": {
+            "surtitre": "Protection des données & Cybersécurité",
+            "titre1": "CONFORMEZ VOTRE ENTREPRISE À LA",
+            "titre2": "LOI 25",
+            "texte": "La loi 25 au Québec vise à protéger les informations personnelles en responsabilisant les entreprises. Elle les oblige à se conformer aux règles concernant la collecte et le traitement des données. Des sanctions sévères peuvent être imposées en cas de non-respect, atteignant jusqu'à 25 millions de dollars ou 4 % du chiffre d'affaires mondial de l'entreprise.",
+            "button1": "Dois-je me conformer ?",
+            "button2": "Conformez-vous ici"
+        },
+
+        "collecte": {
+            "titre": "COLLECTEZ-VOUS DES RENSEIGNEMENTS PERSONNELS ?",
+            "info1": "Informations Personnelles",
+            "info2": "Informations Biométriques",
+            "info3": "Informations Banquaires"
+        },
+
+        "mesures": {
+            "titre": "SI OUI, AVEZ-VOUS MIS EN PLACE CES MESURES DE CYBERSÉCURITÉ?",
+            "mesuresListe": {
+                "mesure1": "J'ai un(e) responsable de la protection des renseignements personnels",
+                "mesure2": "J'ai une politique de confidentialité",
+                "mesure3": "Je sauvegarde mes données par la méthode « 3-2-1-0 »",
+                "mesure4": "J'ai installé un bon anti-virus sur mes postes de travail",
+                "mesure5": "J'ai configuré un pare-feu",
+                "mesure6": "Etc."
+            } 
+        },
+
+        "amendes": {
+            "titre": "AMENDES ET SANCTIONS",
+            "texte": "Pénalités financières",
+            "amendesListe": {
+                "amende1": "Une amende allant jusqu'à 25 000 000 de dollars canadiens",
+                "amende2": "Une somme correspondant à 4% du chiffre d'affaires global de l'entreprise de l'année fiscale précédente",
+                "amende3": "Des sanctions plus fortes sont prévues pour les plus graves infractions"
+            }
+        },
+
+        "CTA": {
+            "titre1": "PRÊT À VOUS CONFORMER ?",
+            "titre2": "CONTACTEZ-NOUS MAINTENANT",
+            "button": "Me Conformer",
+            "documentation": "Pour plus d'informations, visiter",
+            "link": "la documentation officielle"
+        }
+    }
+}

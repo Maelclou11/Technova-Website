@@ -1,0 +1,306 @@
+/* #region  Accueil */
+.CyberSecurite.WebDesign #accueil {
+  background-image: url("../img/arriere-plan-vague-bleu-1440px.png");
+  background-position: 100px top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CyberSecurite.WebDesign .home-img {
+  display: flex;
+}
+
+.CyberSecurite.WebDesign .home-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.CyberSecurite.WebDesign #accueil .home-content {
+  padding: 3rem calc(1rem + 6vw);
+  margin-top: 90px;
+}
+
+.CyberSecurite.WebDesign .home {
+  padding: unset;
+  padding-top: unset;
+}
+/* #endregion */
+/* #region  Services */
+.CyberSecurite.WebDesign .web-service-section {
+  padding: var(--padding-second-) var(--padding-main-);
+  padding-bottom: calc(2rem + 2vh);
+}
+
+.CyberSecurite.WebDesign .web-service-section .TitreSurtitre {
+  margin-bottom: 4rem;
+}
+
+.CyberSecurite.WebDesign .web-service {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5rem 2rem;
+}
+/* #endregion */
+/* #region  Besoin d'aide */
+#besoindaide {
+  padding: calc(4rem + 5vh) var(--padding-main-);
+  overflow-x: hidden;
+}
+#besoindaide h2 {
+  margin-bottom: 0 !important;
+}
+#besoindaide .besoindaide__content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2rem;
+}
+#besoindaide .besoindaide__content ul {
+  list-style: square;
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.5rem + 1vw);
+  padding-left: 2rem;
+  margin-top: 2rem;
+  padding-left: 1em;
+  list-style-type: none;
+  margin-left: 2em;
+}
+#besoindaide .besoindaide__content ul li {
+  color: black;
+  font-size: calc(1rem + 0.6vw);
+  line-height: 1;
+  font-weight: 300;
+  position: relative;
+}
+
+#besoindaide .besoindaide__content ul li::before {
+  content: "•";
+  color: blue;
+  position: absolute;
+  left: -0.8em;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+#besoindaide .besoindaide__content .imgBox {
+  max-width: 480px;
+  min-width: 150px;
+  width: calc(4rem + 20vw);
+}
+#besoindaide .besoindaide__content img {
+  width: 100%;
+  /*   max-width: 480px;
+  min-width: 200px; */
+}
+#besoindaide .btn-devis {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-devis button {
+  border: none;
+  padding: 0.3rem 2rem;
+  border-radius: 3px;
+  font-size: calc(1rem + 0.3vw);
+  background-color: var(--main-color-);
+  color: white;
+  transition: all 0.2s ease;
+  margin-top: 2rem;
+}
+.btn-devis button:hover {
+  background-color: var(--main-color-hover-);
+}
+/* #endregion */
+/* #region  Process */
+#process {
+  padding: calc(4rem + 2vh) 0;
+  padding-top: 40px;
+}
+
+.processus-container {
+  width: 100%;
+  padding: 0 var(--padding-main-);
+  margin: 0 auto;
+  /* padding: 50px 20px; */
+  text-align: center;
+  position: relative;
+}
+
+#process .steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+#process .step {
+  width: calc(20% - 30px);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  position: relative;
+}
+#process .step h3 {
+  font-size: calc(0.7rem + 0.5vw);
+  margin-bottom: 1rem;
+}
+#process .step span {
+  border: 1px #e0e0e0 solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color-);
+  font-size: 26px;
+  position: absolute;
+  padding: 1rem;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  transform: translateY(50%) translateX(-50%);
+  background-color: white;
+}
+
+#process .step:hover {
+  transform: scale(1.05);
+}
+
+#process .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Style pour le curseur personnalisé */
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--main-color-);
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: transform 0.15s ease; /* Ajoutez un délai pour le suivi du curseur */
+  z-index: 9999;
+}
+
+/* Cachez le curseur par défaut lors du survol de .step */
+.step:hover {
+  cursor: none;
+}
+
+/* #endregion */
+/* #region  Réalisations */
+#realisation {
+  padding: calc(4rem + 3vh) var(--padding-main-);
+}
+#realisation h2 {
+  margin-bottom: calc(0.8rem + 1vw);
+}
+/* #endregion */
+/* #region  Faq */
+#web-design-faq {
+  padding: calc(4rem + 3vh) var(--padding-main-);
+}
+#web-design-faq .questions-container {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+/* #endregion */
+
+/* #region  MEDIA QUERRY */
+
+@media screen and (max-width: 1448px) {
+  #besoindaide .besoindaide__content ul {
+    gap: calc(1rem + 1vw);
+  }
+  #besoindaide .besoindaide__content ul li {
+    font-size: calc(1rem + 0.3vw);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #besoindaide .besoindaide__content {
+    justify-content: center;
+    gap: 20px;
+  }
+  #besoindaide .besoindaide__content .imgBox {
+    max-width: 480px;
+    width: 70%;
+  }
+  #besoindaide .besoindaide__content ul {
+    margin-left: 0;
+  }
+  .CyberSecurite.WebDesign .web-service {
+    gap: 5rem;
+  }
+  #process .step {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .WebDesign.CyberSecurite .section .list {
+    flex-wrap: wrap;
+    gap: 0rem 3rem;
+    justify-content: center;
+  }
+  .WebDesign.CyberSecurite .section .list .list-container {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  #process .step {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #besoindaide .btn-devis {
+    display: flex;
+    justify-content: center;
+  }
+  .CyberSecurite.WebDesign .section {
+    padding: var(--max-width-p);
+    padding-top: calc(2rem + 2vh);
+  }
+  #realisation {
+    padding: calc(1rem + 3vh) var(--padding-main-);
+  }
+  .CyberSecurite.WebDesign .title-h2-l {
+    font-size: calc(1rem + 1vw) !important;
+    padding: 0 !important;
+  }
+  #web-design-faq {
+    padding: 40px var(--padding-main-);
+  }
+  .CyberSecurite.WebDesign .section {
+    padding: 40px calc(2vw + 5px);
+    padding-top: calc(2rem + 2vh);
+  }
+  .CyberSecurite .section .list {
+    padding: 20px 40px;
+  }
+  .WebDesign.CyberSecurite .mesure-title {
+    font-size: calc(1rem + 1vw) !important;
+  }
+  #besoindaide .besoindaide__content ul li {
+    line-height: 1.5;
+  }
+
+  #besoindaide {
+    padding: calc(1rem + 3vh) var(--padding-main-);
+  }
+}
+@media (max-width: 480px) {
+  #process .step {
+    width: 100%;
+  }
+}
+/* #endregion */

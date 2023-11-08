@@ -42,7 +42,7 @@ function Form() {
   const isStepValid = useCallback((step) => {
     switch (step) {
       case 1:
-        return formData.virtual_tour || formData.web_design || formData.e_commerce || formData.other;
+        return formData.virtual_tour || formData.web_design || formData.cybersecurity || formData.other;
       case 2:
         return formData.pre_launch || formData.time_0_2_years || formData.time_2_5_years || formData.time_5_years;
       case 5:
@@ -82,7 +82,7 @@ function Form() {
   
     if (formData.virtual_tour) service_asked += "Virtual Tour, ";
     if (formData.web_design) service_asked += "Web Design, ";
-    if (formData.e_commerce) service_asked += "E-Commerce, ";
+    if (formData.cybersecurity) service_asked += "Cyber Security, ";
     if (formData.other) service_asked += "Autre, ";
   
     if (formData.pre_launch) company_age = "En cour de lancement";
@@ -149,7 +149,7 @@ function Form() {
                 {isFilled && <div className="fillTheMissing">{isFilled}</div>}
                   <CheckBox text={t('home:services:serviceTitle3d')} name="virtual_tour" value={formData.virtual_tour || false} onChange={updateFormData}/>
                   <CheckBox text={t('home:services:serviceTitleWebDesign')} name="web_design" value={formData.web_design || false} onChange={updateFormData}/>
-                  <CheckBox text={t('home:services:serviceTitleEcom')} name="e_commerce" value={formData.e_commerce || false} onChange={updateFormData} />
+                  <CheckBox text={t('home:services:serviceTitleCyberSecurity')} name="cybersecurity" value={formData.cybersecurity || false} onChange={updateFormData} />
                   <CheckBox text={t('home:services:other')} name="other" value={formData.other || false} onChange={updateFormData} />
                   {/* <input type=" name="service_asked" value={formData.service_asked || ''} /> */}
                   <FormNavBtn

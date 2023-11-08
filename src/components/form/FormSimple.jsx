@@ -170,7 +170,7 @@ function FormSimple() {
               <div className="step step1 fade-in">
                 {isFilled && <div className="fillTheMissing">{isFilled}</div>}
                 <TextArea
-                  labelText={t('home:ContactUs:form:step6:projectScope')}
+                  labelText={t('home:ContactUs:form:message')}
                   name="user_message"
                   placeholder={t('home:ContactUs:form:step6:placeholder')}
                   value={formData.user_message}

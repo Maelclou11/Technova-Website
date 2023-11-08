@@ -17,12 +17,18 @@
   
   "services": {
     "title": "Our Services",
+
     "serviceTitle3d": "Digital 3D Scanning / Virtual Tours",
     "serviceDescription3d": "We help prospects envision their space using powerful, ingenious 3D virtual technology.",
+
     "serviceTitleWebDesign": "Web-Design / Website Optimization",
     "serviceDescriptionWebDesign": "We don't just code; we assemble. What you deem essential for your business should be recalled on your website.",
+
     "serviceTitleEcom": "E-Commerce Development",
     "serviceDescriptionEcom": "We formulate suitable and adequate digital marketing solutions to enrich your online presence in E-Commerce.",
+
+    "serviceTitleCyberSecurity": "Data Protection & Cybersecurity",
+    "serviceDescriptionCyberSecurity": "Get ready for Law 25 with our cybersecurity service to avoid any legal sanctions and potential hacking.",
     "other": "Other",
     "learnMore": "Learn More"
   },
@@ -85,6 +91,35 @@
       "altLogo": "Logo of group Prevel"
     },
 
+    "FlawlaceSupply": {
+      "title": "Flawlace Supply",
+      "altBg": "E-Commerce optimisation of Flawlace Supply made by Tecnova",
+      "typeOfWork": "E-commerce Website",
+      "altLogo": "Logo of Flawlace Supply"
+    },
+
+    "CompletePortfolio": {
+      "title": "Contact us to see our complete portfolio.",
+      "altBg": "Hexagon background in technological style.",
+      "typeOfWork": "",
+      "altLogo": "Logo of Tecnova",
+      "btnTexte": "Contact Us"
+    },
+
+    "MontrealDuFutur": {
+      "title": "Montreal Du Futur 2023",
+      "altBg": "Virtual Tour of the Montreal Du Futur 2023 Exhibition by Tecnova",
+      "typeOfWork": "Virtual Tour",
+      "altLogo": "Logo of Montreal Du Futur"
+    },
+
+    "VRBO": {
+      "title": "VRBO",
+      "altBg": "House available for rent on VRBO",
+      "typeOfWork": "Integration of online virtual tours",
+      "altLogo": "Logo of Montreal Du Futur"
+    },
+
     "seeWorkBtn": "See Work",
     "comingSoonBtn": "Coming Soon"
   },
@@ -120,7 +155,9 @@
       "philippe" : {
         "role": "Marketing director"
       }
-    }
+    },
+
+    "partner": "And many other partners"
 
   },
 
@@ -192,6 +229,9 @@
         "telephone": "Telephone",
         "email": "Email"
       },
+
+      "message": "Your message",
+
 
       "sentSuccess": {
         "loading": "Loading...",

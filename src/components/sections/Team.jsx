@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TeamIcon from '../TeamIcon';
 import TeamCard from '../TeamCard';
-import { imgXav, imgChrist, imgVince, imgMael, imgEtienne, imgLaurie, imgThomas, imgPhillipe } from '../../img/index.js';
+import { imgXav, imgChrist, imgVince, imgMael, imgEtienne, imgPhillipe } from '../../img/index.js';
 import { useTranslation } from 'react-i18next';
 
 function Team() {
@@ -27,14 +27,15 @@ function Team() {
 
         <div className="container__team hidden">
         <div className="container__team--icon">
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content1'} className={`hidden Teamscale ${haveDisplayed ? 'show' : ''}`} i="2" data_id="content1" iconSrc={imgXav} alt="Xavier Charland - Fondateur et Directeur Général de Tecnova"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content2'} className={`hidden Teamscale delay-300 ${haveDisplayed ? 'show' : ''}`} i="3" data_id="content2" iconSrc={imgChrist} alt="Christophe Kinghorn - Directeur des opérations et Co-Propriétaire de Tecnova"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content4'} className={`hidden Teamscale delay-400 ${haveDisplayed ? 'show' : ''}`} i="4" data_id="content4" iconSrc={imgMael} alt="Maël Cloutier - Développeur en chef et Designer chez Tecnova"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content6'} className={`hidden Teamscale delay-450 ${haveDisplayed ? 'show' : ''}`} i="5" data_id="content6" iconSrc={imgThomas} alt="Thomas Barrial"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content5'} className={`hidden Teamscale delay-500 ${haveDisplayed ? 'show' : ''}`} i="6" data_id="content5" iconSrc={imgEtienne} alt="Étienne Arsenault - Développeur et Designer chez Tecnova"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content7'} className={`hidden Teamscale delay-550 ${haveDisplayed ? 'show' : ''}`} i="7" data_id="content7" iconSrc={imgLaurie} alt="Laurie Lafontaine - Préposée au Marketing chez Tecnova"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content8'} className={`hidden Teamscale delay-600 ${haveDisplayed ? 'show' : ''}`} i="8" data_id="content8" iconSrc={imgPhillipe} alt="Philipe Noël Duperron - Directeur Marketing chez Tecnova"/>
-            <TeamIcon onClick={handleClick} active={activeIcon === 'content3'} className={`hidden Teamscale delay-650 ${haveDisplayed ? 'show' : ''}`} i="9" data_id="content3" iconSrc={imgVince} alt="Vincent Denis - Directeur Financier et Co-Propriétaire de Tecnova"/>
+            <TeamIcon onClick={handleClick} active={activeIcon === 'content1'} className={`hidden Teamscale ${haveDisplayed ? 'show' : ''}`} i="1.33" data_id="content1" iconSrc={imgXav} alt="Xavier Charland - Fondateur et Directeur Général de Tecnova"/>
+            <TeamIcon onClick={handleClick} active={activeIcon === 'content2'} className={`hidden Teamscale delay-300 ${haveDisplayed ? 'show' : ''}`} i="2.66" data_id="content2" iconSrc={imgChrist} alt="Christophe Kinghorn - Directeur des opérations et Co-Propriétaire de Tecnova"/>
+            <TeamIcon onClick={handleClick} active={activeIcon === 'content4'} className={`hidden Teamscale delay-400 ${haveDisplayed ? 'show' : ''}`} i="3.99" data_id="content4" iconSrc={imgMael} alt="Maël Cloutier - Développeur en chef et Designer chez Tecnova"/>
+            {/* <TeamIcon onClick={handleClick} active={activeIcon === 'content6'} className={`hidden Teamscale delay-450 ${haveDisplayed ? 'show' : ''}`} i="5" data_id="content6" iconSrc={imgThomas} alt="Thomas Barrial"/> */}
+            <TeamIcon onClick={handleClick} active={activeIcon === 'content5'} className={`hidden Teamscale delay-500 ${haveDisplayed ? 'show' : ''}`} i="5.32" data_id="content5" iconSrc={imgEtienne} alt="Étienne Arsenault - Développeur et Designer chez Tecnova"/>
+            {/* <TeamIcon onClick={handleClick} active={activeIcon === 'content7'} className={`hidden Teamscale delay-550 ${haveDisplayed ? 'show' : ''}`} i="7" data_id="content7" iconSrc={imgLaurie} alt="Laurie Lafontaine - Préposée au Marketing chez Tecnova"/> */}
+            <TeamIcon onClick={handleClick} active={activeIcon === 'content8'} className={`hidden Teamscale delay-600 ${haveDisplayed ? 'show' : ''}`} i="6.65" data_id="content8" iconSrc={imgPhillipe} alt="Philipe Noël Duperron - Directeur Marketing chez Tecnova"/>
+            <TeamIcon onClick={handleClick} active={activeIcon === 'content3'} className={`hidden Teamscale delay-650 ${haveDisplayed ? 'show' : ''}`} i="7.98" data_id="content3" iconSrc={imgVince} alt="Vincent Denis - Directeur Financier et Co-Propriétaire de Tecnova"/>
+            <p className='partner'>{t('home:OurTeam:partner')}</p>
         </div>
         <div className="team__content hidden delay-1200">
             <TeamCard 
@@ -98,7 +99,7 @@ function Team() {
                 linkedin="" 
             />
 
-            <TeamCard 
+            {/* <TeamCard 
                 active={activeIcon === 'content6'} 
                 id="content6" 
                 photoSrc={imgThomas}
@@ -109,9 +110,9 @@ function Team() {
                 number="" 
                 telephone="" 
                 linkedin="" 
-            />
+            /> */}
 
-            <TeamCard 
+            {/* <TeamCard 
                 active={activeIcon === 'content7'} 
                 id="content7"
                 photoSrc={imgLaurie}
@@ -122,7 +123,7 @@ function Team() {
                 number="" 
                 telephone="" 
                 linkedin="" 
-            />
+            /> */}
 
             <TeamCard 
                 active={activeIcon === 'content8'} 

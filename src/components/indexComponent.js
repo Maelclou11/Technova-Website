@@ -1,0 +1,23 @@
+import NavBar from './NavBar';
+import Footer from './Footer';
+import Form from './form/Form';
+import FormSimple from './form/FormSimple';
+import Animation from './Animation';
+import BannerWord from './BannerWord';
+import TitleLeft from './TitleLeft';
+import TitleCenterUnderline from './TitleCenterUnderline';
+import RecentWorkCard from './RecentWorkCard';
+import ServiceCard from './ServiceCard';
+import TeamCard from './TeamCard';
+import TeamIcon from './TeamIcon';
+import AccueilService from './sections/AccueilService';
+import HoverImage from './HoverImage';
+import DomainBenefit from './DomainBenefit';
+import QuestionFaq from './QuestionFaq';
+import InstantQuote from './InstantQuote';
+import WorkSection from './WorkSection';
+import ServiceCardImage from './ServiceCardImage';
+import TitreSurtitre from './basics/TitreSurtitre';
+import LogoCarousel from './LogoCarousel';
+
+export {NavBar, Footer, Form, FormSimple, Animation, BannerWord, TitleLeft, TitleCenterUnderline, RecentWorkCard, ServiceCard, TeamCard, TeamIcon, AccueilService, HoverImage, DomainBenefit, QuestionFaq, InstantQuote, WorkSection, ServiceCardImage, TitreSurtitre, LogoCarousel};

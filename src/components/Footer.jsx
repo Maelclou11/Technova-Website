@@ -66,7 +66,7 @@ function Footer() {
     /* #endregion */
 
   return (
-    <div>
+    <div className='footer-frame'>
         <footer>
         <div className="rowFooter">
                         {/* <!-- Colonne 1 --> */}
@@ -77,7 +77,7 @@ function Footer() {
                         {/* <!-- Colonne 2 --> */}
             <div className="colFooter">
                 <h3>{t('footer:col2:title')}<div className="underline"><span></span></div></h3>
-                <p>2680 Chemin Ste-Foy, G1V1V4</p>
+                <p>2828 Boulevard Laurier Suite 700, G1V0B9</p>
                 <p>Québec, Canada</p>
                 <p className="email-id"><a className="mobileFooter" href='mailto:service@tecnova.ca'>service@tecnova.ca</a></p>
                 <p><a className="mobileFooter" href='tel:1-819-237-6080'>1 + 819-237-6080</a></p>

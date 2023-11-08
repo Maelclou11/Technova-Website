@@ -1,59 +1,30 @@
 import React, { useEffect } from 'react';
-import './App.css';
-import $ from 'jquery';
-import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
-import { NavBar, Footer, Animation, BannerWord } from './components/indexComponent';
-import { Accueil, Services, RecentWork, Team, OurMission, ContactUs } from './components/sections/indexSection';
+import Accueil from './pages/Accueil';
+import VisitesVirtuelles from './pages/Services/VisitesVirtuelles';
+import CyberSecurite from './pages/Services/CyberSecurite';
+import WorksPortfolio from './pages/WorksPortfolio';
+import WebDesign from './pages/Services/WebDesign';
 
-
-function App() {
-  /* Traduction */
-  const { i18n } = useTranslation();
-
-  $(window).scroll(() => {
-    if ($(window).scrollTop() > 0) {
-      $('.indexMenu').addClass('navbar-scrolled');
-    } else {
-      $('.indexMenu').removeClass('navbar-scrolled');
-    }
-  });
+function App(){
+  const { pathname } = useLocation();  
 
   useEffect(() => {
-    i18n.on('languageChanged', (lng) => {
-      localStorage.setItem('userLanguage', lng);
-    });
-  
-    return () => {
-      i18n.off('languageChanged');
-    };
-  }, [i18n]);
+      window.scrollTo(0, 0);
+  }, [pathname]);
 
-  
 
   return (
-    <div>
-      <Animation />
-      <NavBar />
-
-      <Accueil />
-
-      <BannerWord />
-
-      <Services />
-
-      <RecentWork />
-
-      <Team />
-
-      <OurMission />
-
-      <ContactUs />
-
-      <Footer />
-    </div>
-  );
-
-}
+    <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/services/cybersecurite" element={<CyberSecurite />} />
+        <Route path="/services/visite-virtuelle" element={<VisitesVirtuelles />} />
+        <Route path="/services/web-design" element={<WebDesign />} />
+        <Route path="/realisations" element={<WorksPortfolio />} /> {/* /services/visite-virtuelle */}
+    </Routes>
+  )
+};
 
 export default App;
